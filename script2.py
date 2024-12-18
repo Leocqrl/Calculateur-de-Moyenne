@@ -1,6 +1,6 @@
 import os, openpyxl, matplotlib.pyplot as plt
 
-os.chdir('Prog_Moyenne')
+os.chdir('DOSSIER COURANT')
 
 def moyenne():
     wb_file=openpyxl.load_workbook('semestre.xlsx', data_only=True, read_only=True)
@@ -42,7 +42,7 @@ print(moyenne())
 
 def Diag(valeurs):
     plt.figure()
-    plt.title("Résultat du Semestre 1")
+    plt.title("Résultats du BUT RT")
     plt.ylim(0,20)
     plt.axhline(10, color="Red")
     plt.axhline(8, color="Red")
