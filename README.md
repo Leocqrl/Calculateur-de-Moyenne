@@ -1,4 +1,3 @@
----
 # Calculateur-de-Moyenne / Average-Calculator
 
 ## 🌟 Description
