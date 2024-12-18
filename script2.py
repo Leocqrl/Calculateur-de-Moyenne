@@ -31,8 +31,8 @@ def moyenne():
                                             if Intitule==str(sheet_notes.cell(row=y2, column=1)) and notes.data_type != 's'  and notes.value!=None:
                                                 UEnom+=int(notes.value)*int(cell.value)
                                                 UEden+=int(cell.value)
-                            UE_S+=[( UE, UEnom/UEden)]
-                   
+                            if UEden!=0:
+                                UE_S+=[( UE, UEnom/UEden)]
     wb_file.close()
     wb_note.close()
     return UE_S
