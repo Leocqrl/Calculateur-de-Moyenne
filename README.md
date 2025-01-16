@@ -1,6 +1,6 @@
 # 📊 Calculateur-de-Moyenne / Average-Calculator
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Excel](https://img.shields.io/badge/Excel-Automation-brightgreen)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Graphs-orange)
 ![Tkinter](https://img.shields.io/badge/Tkinter-UI-lightblue)
@@ -74,7 +74,7 @@ The goal of this project is to automate the calculation of semester averages for
 
 ## 🔧 Pré-requis / Prerequisites
 
-- Python 3.x
+- Python 3.12
 - Fichiers Excel `moyenne_RT.xlsx` et `semestre.xlsx` dans le bon format.
 - Bibliothèques Python nécessaires : `openpyxl`, `matplotlib`, `tkinter`, `os`.
 
